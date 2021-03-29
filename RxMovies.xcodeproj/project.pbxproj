@@ -15,6 +15,7 @@
 		184DC70D2610E5DF00BECDAA /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184DC70B2610E5DF00BECDAA /* HomeViewController.xib */; };
 		184DC7142610E6AE00BECDAA /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DC7132610E6AE00BECDAA /* HomeRouter.swift */; };
 		184DC71C2610EA3000BECDAA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DC71B2610EA3000BECDAA /* HomeViewModel.swift */; };
+		18A340D12611E591004FA3E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A340D02611E591004FA3E5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		184DC70B2610E5DF00BECDAA /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		184DC7132610E6AE00BECDAA /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		184DC71B2610EA3000BECDAA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		18A340D02611E591004FA3E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		184DC6EC2610E4B200BECDAA /* RxMovies */ = {
 			isa = PBXGroup;
 			children = (
+				18A340CF2611E57D004FA3E5 /* Resources */,
 				184DC6ED2610E4B200BECDAA /* AppDelegate.swift */,
 				184DC6EF2610E4B200BECDAA /* SceneDelegate.swift */,
 				184DC7112610E66600BECDAA /* Home */,
@@ -119,6 +122,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		18A340CF2611E57D004FA3E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18A340D02611E591004FA3E5 /* Constants.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				184DC6F02610E4B200BECDAA /* SceneDelegate.swift in Sources */,
 				184DC71C2610EA3000BECDAA /* HomeViewModel.swift in Sources */,
 				184DC70C2610E5DF00BECDAA /* HomeViewController.swift in Sources */,
+				18A340D12611E591004FA3E5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
